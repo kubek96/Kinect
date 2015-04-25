@@ -7,7 +7,7 @@ namespace KinectKeyboard.Components
     public class Button : INotifyPropertyChanged
     {
         private string _buttonLabel;
-        private Color _color;
+        private SolidColorBrush _color;
         private int _column;
         private int _row;
 
@@ -16,9 +16,16 @@ namespace KinectKeyboard.Components
             _buttonLabel = buttonLabel;
             _row = row;
             _column = column;
+
+            Color = Brushes.HotPink;
         }
 
-        public Color Color
+        public Button(string buttonLabel)
+        {
+            _buttonLabel = buttonLabel;
+        }
+
+        public SolidColorBrush Color
         {
             get { return _color; }
             set { SetField(ref _color, value, "Color"); }

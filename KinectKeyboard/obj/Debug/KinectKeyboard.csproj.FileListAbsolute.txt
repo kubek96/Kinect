@@ -16,3 +16,13 @@ c:\users\jakub\documents\visual studio 2013\Projects\KinectKeyboard\KinectKeyboa
 c:\users\jakub\documents\visual studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\KinectKeyboard.csproj.GenerateResource.Cache
 c:\users\jakub\documents\visual studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\KinectKeyboard.exe
 c:\users\jakub\documents\visual studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\KinectKeyboard.pdb
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\KinectKeyboard.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\KinectInteraction180_32.dll
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\KinectInteraction180_64.dll
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jakub\Documents\Visual Studio 2013\Projects\KinectKeyboard\KinectKeyboard\obj\Debug\KinectKeyboard_MarkupCompile.lref
