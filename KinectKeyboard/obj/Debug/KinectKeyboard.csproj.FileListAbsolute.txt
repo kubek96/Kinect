@@ -1,0 +1,1 @@
+c:\users\jakub\documents\visual studio 2013\Projects\KinectKeyboard\KinectKeyboard\bin\Debug\KinectKeyboard.exe.config
