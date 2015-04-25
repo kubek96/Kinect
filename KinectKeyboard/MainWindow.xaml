@@ -2,8 +2,52 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
         Title="MainWindow" WindowState="Maximized">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="1">
+            <ItemsControl ItemsSource="{Binding QwertyButtons}">
+                <!-- ItemsPanelTemplate -->
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <!-- ItemTemplate -->
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Background="Aqua" >
+                            <TextBlock Text="{Binding ButtonLabel}" Grid.Row="{Binding Row}" Grid.Column="{Binding Column}"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
         
     </Grid>
 </Controls:MetroWindow>
